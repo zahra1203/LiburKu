@@ -49,7 +49,7 @@ lib/
 └── services/
     └── api_service.dart       # Permintaan HTTP dan pemeriksaan respons
 test/
-└── ...                        # Pengujian otomatis model Libur
+└── libur_test.dart            # Pengujian otomatis model Libur
 ```
 
 ## Cara Menjalankan
@@ -57,8 +57,8 @@ test/
 Prasyarat: [Flutter SDK](https://docs.flutter.dev/get-started/install) terpasang, serta emulator atau perangkat Android, dan koneksi internet.
 
 ```bash
-git clone https://github.com/USERNAME/NAMA-REPO.git
-cd NAMA-REPO
+git clone https://github.com/zahra1203/LiburKu.git
+cd LiburKu
 flutter pub get
 flutter run
 ```
@@ -69,16 +69,6 @@ flutter run
 flutter analyze
 flutter test
 ```
-
-## Tampilan Aplikasi
-
-| Halaman Utama | Pilihan Negara dan Tahun |
-| --- | --- |
-| ![Halaman utama](screenshots/home.png) | ![Pilihan negara](screenshots/pilihan.png) |
-
-| Pencarian | Halaman Detail |
-| --- | --- |
-| ![Pencarian](screenshots/cari.png) | ![Detail](screenshots/detail.png) |
 
 ## Batasan
 
